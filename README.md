@@ -3,29 +3,48 @@ A Comparative Analysis of Fine-tuned and Benchmark Models for Code Generation Ca
 
 ## Background Knowledge
 ### Perceptron
-![Perceptron](Images/Perceptron%20vs%20Neuron.png)
+<img src="Images/Perceptron vs Neuron.png" width="500px"/>
 
 ### Neural Network
-![Neural Networks](Images/Neural%20Networks%20Architecture.png)
+<img src="Images/Neural%20Networks%20Architecture.png" width="300px"/>
 
 ### Transformer
-![Transformer](Images/Transformer.png)
+<img src="Images/Transformer.png" width="500px"/>
 
 ## Fine-tuning Methods
 ### Parameter-Efficient Fine-Tuning (PEFT)
-![LoRA fine-tune](Images/LoRA%20fine-tune.png)
+<img src="Images/LoRA%20fine-tune.png" width="300px"/>
 
 ### Supervised Fine-tuning (STF)
-![Fine-tune guide](Images/Fine%20Tuning%20Guide.png)
+<img src="Images/Fine Tuning Guide.png" width="600px"/>
 
 ### Direct Preference Optimization (DPO)
-![DPO](Images/RLHF%20vs%20DPO.png)
+<img src="Images/RLHF%20vs%20DPO.png" width="600px"/>
 
 ## Evaluation Metrics
 ### BERT Metrics
-![BERT](Images/BERT.png)
+<img src="Images/BERT.png" width="600px"/>
 
 ### CodeBLEU Metrics
-![Code BLEU](Images/codeBLEU.png)
+<img src="Images/codeBLEU.png" width="600px"/>
 
 ## Results
+### BERT
+<img src="Figure/BERT_F1_dist_comp.png" width="600px"/>
+
+<img src="Figure/BERT_PR_curve_comp.png" width="600px"/>
+
+### CodeBERT
+<img src="Figure/codeBERT_F1_dist_comp.png" width="600px"/>
+
+<img src="Figure/codeBERT_F3_dist_comp.png" width="600px"/>
+
+<img src="Figure/codeBERT_PR_curve_comp.png" width="600px"/>
+
+<img src="Figure/codeBERT_PR_curve_comp-1.png" width="600px"/>
+
+### BLEU
+<img src="Figure/BLEU_dist_comp.png" width="600px"/>
+
+### Result Table
+<img src="Figure/result_table.png" width="600px"/>
